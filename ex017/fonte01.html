@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fontes em CSS</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+
+        /*
+            Medidas absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente é = 1em
+            */
+        font-size: 1em;
+      }
+      h1 {
+        /* shorthand font
+          -font-style -> font-weight -> font-size -> font-family
+          
+          font-family: sans-serif;
+          font-weight: bolder;
+          font-size: 3em;
+          font-style: italic;
+          
+          */
+        font: italic bolder 3em "sans-serif", sans-serif;
+      }
+
+      h2 {
+        font: bold 2em "sans-serif";
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Trabalhando com fontes</h1>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis placeat
+      tempora, nihil at corporis dolore? Reprehenderit aut excepturi hic
+      ratione? Earum voluptatem repudiandae tempore eaque labore quo rem facilis
+      culpa?
+    </p>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro velit
+      aspernatur sint? Perferendis, ea. Illum dolorem veritatis, dignissimos
+      perferendis eaque, eum error odit accusantium doloremque, aperiam animi
+      autem nihil sit!
+    </p>
+
+    <h2>Trabalhando com fontes</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus beatae eum voluptatem ipsa eos nostrum nobis dolore saepe vitae distinctio. Molestias sed ab voluptas libero iusto quaerat repellat fuga placeat.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptas. Dolorum molestias eum suscipit est nihil porro culpa facilis soluta harum distinctio ducimus, blanditiis aspernatur eaque non et, aliquid numquam!</p>
+  </body>
+</html>
